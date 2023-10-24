@@ -2,7 +2,6 @@ package BinarySearch;
 
 public class BinarySearch {
 
-    // has to return boxed integer in order to comfort to interface defined in the book
     private static Integer binarySearch(int[] list, int item) {
         int low = 0;
         int high = list.length - 1;
